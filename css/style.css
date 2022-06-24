@@ -2,6 +2,13 @@ body {
   font-family: "Roboto", sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .layout_padding {
