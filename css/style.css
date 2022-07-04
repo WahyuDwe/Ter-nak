@@ -316,6 +316,11 @@ a:focus {
   margin: 0;
 }
 
+.img-circle {
+  border-radius: 15%;
+  margin-left: 200px;
+}
+
 .service_section {
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -476,7 +481,8 @@ a:focus {
           transform: translate(-50%, -50%);
   width: 0;
   height: 0;
-  background-color: rgba(37, 28, 229, 0.8);
+  /* bg color */
+  background-color: rgba(86, 197, 150, 0.8);
   border-radius: 25px;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
